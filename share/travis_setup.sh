@@ -1,9 +1,9 @@
 #!/bin/bash
 set -evx
 
-mkdir ~/.dashcore
+mkdir ~/.dashplatinum
 
 # safety check
-if [ ! -f ~/.dashcore/.dash.conf ]; then
-  cp share/dash.conf.example ~/.dashcore/dash.conf
+if [ ! -f ~/.dashplatinum/.dashp.conf ]; then
+  cp share/dashp.conf.example ~/.dashplatinum/dashp.conf
 fi

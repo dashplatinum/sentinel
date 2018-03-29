@@ -55,9 +55,9 @@ With all tests passing and crontab setup, Sentinel will stay in sync with dashd 
 
 ## Configuration
 
-An alternative (non-default) path to the `dash.conf` file can be specified in `sentinel.conf`:
+An alternative (non-default) path to the `dashp.conf` file can be specified in `sentinel.conf`:
 
-    dash_conf=/path/to/dash.conf
+    dash_conf=/path/to/dashp.conf
 
 ## Troubleshooting
 

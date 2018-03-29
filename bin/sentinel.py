@@ -167,7 +167,7 @@ def main():
 
     # check dashd sync
     if not dashd.is_synced():
-        print("dashd not synced with network! Awaiting full sync before running Sentinel.")
+        print("dashpd not synced with network! Awaiting full sync before running Sentinel.")
         return
 
     # ensure valid masternode
