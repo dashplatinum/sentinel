@@ -1,12 +1,10 @@
-# Dash Sentinel
+# Dash Platinum Sentinel
 
-An all-powerful toolset for Dash.
-
-[![Build Status](https://travis-ci.org/dashpay/sentinel.svg?branch=master)](https://travis-ci.org/dashpay/sentinel)
+An all-powerful toolset for Dash Platinum.
 
 Sentinel is an autonomous agent for persisting, processing and automating Dash V12.1 governance objects and tasks, and for expanded functions in the upcoming Dash V13 release (Evolution).
 
-Sentinel is implemented as a Python application that binds to a local version 12.1 dashd instance on each Dash V12.1 Masternode.
+Sentinel is implemented as a Python application that binds to a local version 12.1 dashd instance on each Dash Platinum V12.1 Masternode.
 
 This guide covers installing Sentinel onto an existing 12.1 Masternode in Ubuntu 14.04 / 16.04.
 
@@ -25,7 +23,7 @@ Update system packages and ensure virtualenv is installed:
 
 Make sure the local Dash daemon running is at least version 12.1 (120100)
 
-    $ dash-cli getinfo | grep version
+    $ dashp-cli getinfo | grep version
 
 ### 2. Install Sentinel
 
@@ -57,7 +55,7 @@ With all tests passing and crontab setup, Sentinel will stay in sync with dashd 
 
 An alternative (non-default) path to the `dashp.conf` file can be specified in `sentinel.conf`:
 
-    dash_conf=/path/to/dashp.conf
+    dashp_conf=/path/to/dashp.conf
 
 ## Troubleshooting
 
@@ -66,13 +64,6 @@ To view debug output, set the `SENTINEL_DEBUG` environment variable to anything 
     $ SENTINEL_DEBUG=1 ./venv/bin/python bin/sentinel.py
 
 ## Contributing
-
-Please follow the [DashCore guidelines for contributing](https://github.com/dashpay/dash/blob/v0.12.1.x/CONTRIBUTING.md).
-
-Specifically:
-
-* [Contributor Workflow](https://github.com/dashpay/dash/blob/v0.12.1.x/CONTRIBUTING.md#contributor-workflow)
-
     To contribute a patch, the workflow is as follows:
 
     * Fork repository
@@ -85,4 +76,4 @@ Specifically:
 
 ### License
 
-Released under the MIT license, under the same terms as DashCore itself. See [LICENSE](LICENSE) for more info.
+Released under the Dash Platinum.
