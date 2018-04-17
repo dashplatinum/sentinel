@@ -34,7 +34,7 @@ class DashConfig():
         creds = {key: value for (key, value) in match}
 
         # standard Dash defaults...
-        default_port = 7877 if (network == 'mainnet') else 17877
+        default_port = 7977 if (network == 'mainnet') else 17977
 
         # use default port for network if not specified in dashp.conf
         if not ('port' in creds):
